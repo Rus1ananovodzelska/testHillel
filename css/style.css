@@ -1,0 +1,80 @@
+h1 {
+	color: 000;
+	font-family: Arial;
+	font-size: 32px;
+}
+.container {
+	padding-top: 0;
+	padding-right: 320px;
+	padding-bottom: 178px;
+  	padding-left: 318px;
+  	margin: 0 auto;
+  	color: 000;
+	font-family: Arial;
+	font-size: 20px;
+}
+input {
+	display: block;
+	width: 803px;
+	height: 58px;
+	font-size: 20px;
+	background-color: grey;
+	margin-bottom: 69px;
+}
+select {
+	display: block;
+	width: 364px;
+	height: 58px;
+	font-size: 24px;
+	background-color: grey;
+}
+.country {
+  	float: left; 
+}
+.language {
+  	float: right;  
+}
+.clearfix {
+	width: 100%;
+  	overflow: hidden;
+}
+.link {
+	color: 25256e;
+	text-decoration: none;
+}
+span {
+  font-size: 24px;
+}
+.attendance, .agreement {
+  display: inline;
+  width: 364px;
+  height: 60px;
+  font-size: 20px;
+  padding-top: 35px;
+  padding-right: 320px;
+  padding-bottom: 46px;
+  padding-left: 318px;
+}
+.comments {
+  display: block;
+  padding-top: 35px;
+  padding-right: 320px;
+  padding-bottom: 21px;
+  padding-left: 318px;  
+}
+[type=reset] { 
+  font-size: 24px;
+  color: black;
+  background-color: grey;
+  width: 361px;
+  height: 75px;
+}
+[type=submit] {
+  font-size: 24px;
+  color: white;
+  background-color: black;
+  width: 361px;
+  height: 75px;
+}
+
+ 

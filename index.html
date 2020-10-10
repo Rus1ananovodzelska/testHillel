@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application form</title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+    	<div class="wrapper">
+    	<form action="#" method="post">
+	        <h1>Please fill out the form below and we will contact you shortly</h1>
+	        	<div class="container">
+			        	<label for="name">Full name</label>
+			  			<input type="text" name="name" id="name">
+			        	<label for="e-mail">Your e-mail address</label>
+			  			<input type="e-mail" name="e-mail" id="e-mail">
+			  			<label for="phone">Your phone number</label>
+			  			<input type="tel" name="phone" id="phone">
+					<div class="clearfix">
+						<div class="country">
+							<label for="countries">Select your country</label>
+							<select name="countries" id="countries">
+							<option value="UK">UK</option>
+							<option value="USA">USA</option>
+							<option value="CA">CA</option>
+ 							</select>
+						</div>
+						<div class="language">
+							<label for="language">Select your language</label>
+							<select name="language" id="language">
+							<option value="English">English</option>
+							<option value="French">French</option>
+  							</select>
+						</div>
+					</div>
+		        	<div class="attendance">
+						<span>I want to attend event</span>
+	  					<input type="radio" name="attend" value="online">
+						<label for="attend">online</label>
+						<input type="radio" name="attend" value="offline">
+						<label for="attend">offline</label>
+					</div>
+					<div class="comments">
+						<textarea name="comments" id="comments"></textarea>
+					</div>
+					<div class="agreement">
+						<input type="checkbox" name="agree" value="agree">
+						<label for="agree">I agree with</label>
+						<span><a class="link" href="#"> the privacy policy</a></span> 
+					</div> 
+			        	<input type="reset" value="Clear form">
+			        	<input type="submit" value="Submit form">
+				</div>
+        </form>
+    </body>
+</html>
